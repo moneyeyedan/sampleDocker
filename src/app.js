@@ -11,3 +11,4 @@ app.get('/docker',(req,res)=>{
 app.listen(5000,()=>{
     console.log('http://localhost:5000');
 })
+//instruction of the site link https://buddy.works/guides/how-dockerize-node-application
