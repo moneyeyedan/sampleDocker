@@ -12,3 +12,5 @@ app.listen(5000,()=>{
     console.log('http://localhost:5000');
 })
 //instruction of the site link https://buddy.works/guides/how-dockerize-node-application
+//docker container run to=>docker run -p <docker=>yourwishport>:<local=>yourwishPort> <build dockername>
+//if you access the docker rest api you provide the http://localhost:<put docker port here>

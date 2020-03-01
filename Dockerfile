@@ -1,7 +1,7 @@
 From node:12-stretch
-WORKDIR Home/Documents/nodeDockerSkull
-COPY package.json Home/Documents/nodeDockerSkull
+WORKDIR /app
+COPY package.json /app
 RUN npm install
-COPY . Home/Documents/nodeDockerSkull
+COPY . /app
 CMD node src/app.js
 EXPOSE 5000
